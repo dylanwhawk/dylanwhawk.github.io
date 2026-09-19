@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1240" viewBox="0 0 1640 1240" role="img" aria-labelledby="sm-title sm-description">
+<title id="sm-title">How the model’s belief of the reward region changes with context</title>
+<desc id="sm-description">Four panels over the same plane of every possible response, word count left to right and style from a clear paragraph at the bottom to a bare list of facts at the top. The blue region is what the hidden rubric accepts: under 200 words and both facts, any style. The orange region is where the model believes the grader actually rewards, given no context, then the instructions, then the instructions and the article, then those plus its own reasoning about the grader; each panel heading lists the context seen so far; a dashed outline is the belief one panel earlier. The only point is the final response in panel 4: the two facts and nothing else, which passes.</desc>
+<defs><mask id="p1-sm-mask-0" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="160" y="150" width="380" height="370" rx="40" fill="white"/></mask>
+<mask id="p1-sm-mask-1" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="150" y="130" width="570" height="410" rx="60" fill="white"/></mask>
+<mask id="p2-sm-mask-0" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="160" y="150" width="380" height="370" rx="40" fill="white"/></mask>
+<mask id="p2-sm-mask-1" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="150" y="130" width="570" height="410" rx="60" fill="white"/></mask>
+<mask id="p2-sm-mask-2" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="175" y="380" width="365" height="125" rx="40" fill="white"/></mask>
+<mask id="p3-sm-mask-0" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="160" y="150" width="380" height="370" rx="40" fill="white"/></mask>
+<mask id="p3-sm-mask-1" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="175" y="380" width="365" height="125" rx="40" fill="white"/></mask>
+<mask id="p3-sm-mask-2" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="340" y="392" width="200" height="108" rx="36" fill="white"/></mask>
+<mask id="p4-sm-mask-0" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="160" y="150" width="380" height="370" rx="40" fill="white"/></mask>
+<mask id="p4-sm-mask-1" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="340" y="392" width="200" height="108" rx="36" fill="white"/></mask>
+<mask id="p4-sm-mask-2" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="600" style="mask-type:luminance"><rect x="175" y="165" width="365" height="340" rx="36" fill="white"/></mask></defs>
+<rect x="0" y="0" width="1640" height="1240" fill="#ffffff"/>
+<g transform="translate(0 0)">
+<rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+<line x1="140" y1="548" x2="750" y2="548" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="140" y1="548" x2="140" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="340" y1="548" x2="340" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="540" y1="548" x2="540" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="740" y1="548" x2="740" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="140" y1="548" x2="140" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="134" y1="536" x2="140" y2="536" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="134" y1="112" x2="140" y2="112" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="140" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="140" dy="0">0</tspan></text>
+<text x="340" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="340" dy="0">100</tspan></text>
+<text x="540" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="540" dy="0">200</tspan></text>
+<text x="740" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="740" dy="0">300 words</tspan></text>
+<text x="129" y="540.55" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="end"><tspan x="129" dy="0">clear paragraph</tspan></text>
+<text x="129" y="116.55" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="end"><tspan x="129" dy="0">bare list of facts</tspan></text>
+<rect x="0" y="0" width="800" height="600" fill="#d4e7f8" opacity="1" mask="url(#p1-sm-mask-0)"/>
+<rect x="0" y="0" width="800" height="600" fill="#f4a261" opacity="0.3" mask="url(#p1-sm-mask-1)"/>
+<rect x="150" y="130" width="570" height="410" rx="60" fill="none" stroke="#e07a1f" stroke-width="2"/>
+<text x="350" y="181" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="16" font-weight="400" fill="#2a6db5" text-anchor="middle"><tspan x="350" dy="0">Grader actually rewards</tspan></text>
+<text x="630" y="300" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="15" font-weight="400" fill="#b45f0a" text-anchor="middle"><tspan x="630" dy="0">Believed rewarded</tspan></text>
+<text x="32" y="44" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="20" font-weight="600" fill="#222222" text-anchor="start"><tspan x="32" dy="0">1 · No context</tspan></text>
+<text x="32" y="70" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="15" font-weight="400" fill="#555555" text-anchor="start"><tspan x="32" dy="0">The model has not seen the task. Its guess at what gets rewarded</tspan><tspan x="32" dy="21">is its prior from training, which covers most of the plane.</tspan></text>
+</g>
+<g transform="translate(840 0)">
+<rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+<line x1="140" y1="548" x2="750" y2="548" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="140" y1="548" x2="140" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="340" y1="548" x2="340" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="540" y1="548" x2="540" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="740" y1="548" x2="740" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="140" y1="548" x2="140" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="134" y1="536" x2="140" y2="536" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="134" y1="112" x2="140" y2="112" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="140" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="140" dy="0">0</tspan></text>
+<text x="340" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="340" dy="0">100</tspan></text>
+<text x="540" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="540" dy="0">200</tspan></text>
+<text x="740" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="740" dy="0">300 words</tspan></text>
+<text x="129" y="540.55" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="end"><tspan x="129" dy="0">clear paragraph</tspan></text>
+<text x="129" y="116.55" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="end"><tspan x="129" dy="0">bare list of facts</tspan></text>
+<rect x="0" y="0" width="800" height="600" fill="#d4e7f8" opacity="1" mask="url(#p2-sm-mask-0)"/>
+<rect x="0" y="0" width="800" height="600" fill="#f4a261" opacity="0.3" mask="url(#p2-sm-mask-2)"/>
+<rect x="150" y="130" width="570" height="410" rx="60" fill="none" stroke="#f0b37e" stroke-width="1.5" stroke-dasharray="5 5"/>
+<rect x="175" y="380" width="365" height="125" rx="40" fill="none" stroke="#e07a1f" stroke-width="2"/>
+<text x="350" y="181" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="16" font-weight="400" fill="#2a6db5" text-anchor="middle"><tspan x="350" dy="0">Grader actually rewards</tspan></text>
+<text x="630" y="300" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#c8955a" text-anchor="middle" font-style="italic"><tspan x="630" dy="0">Belief one panel earlier</tspan></text>
+<text x="357.5" y="447" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="15" font-weight="400" fill="#b45f0a" text-anchor="middle"><tspan x="357.5" dy="0">Believed rewarded</tspan></text>
+<text x="32" y="44" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="20" font-weight="600" fill="#222222" text-anchor="start"><tspan x="32" dy="0">2 · Instructions</tspan></text>
+<text x="32" y="70" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="15" font-weight="400" fill="#555555" text-anchor="start"><tspan x="32" dy="0">“Write a paragraph that summarizes the following article for a general reader in under 200 words.</tspan><tspan x="32" dy="21">Make it clear and accurate.” The belief collapses onto what the instructions ask for.</tspan></text>
+</g>
+<g transform="translate(0 640)">
+<rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+<line x1="140" y1="548" x2="750" y2="548" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="140" y1="548" x2="140" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="340" y1="548" x2="340" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="540" y1="548" x2="540" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="740" y1="548" x2="740" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="140" y1="548" x2="140" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="134" y1="536" x2="140" y2="536" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="134" y1="112" x2="140" y2="112" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="140" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="140" dy="0">0</tspan></text>
+<text x="340" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="340" dy="0">100</tspan></text>
+<text x="540" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="540" dy="0">200</tspan></text>
+<text x="740" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="740" dy="0">300 words</tspan></text>
+<text x="129" y="540.55" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="end"><tspan x="129" dy="0">clear paragraph</tspan></text>
+<text x="129" y="116.55" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="end"><tspan x="129" dy="0">bare list of facts</tspan></text>
+<rect x="0" y="0" width="800" height="600" fill="#d4e7f8" opacity="1" mask="url(#p3-sm-mask-0)"/>
+<rect x="0" y="0" width="800" height="600" fill="#f4a261" opacity="0.3" mask="url(#p3-sm-mask-2)"/>
+<rect x="175" y="380" width="365" height="125" rx="40" fill="none" stroke="#f0b37e" stroke-width="1.5" stroke-dasharray="5 5"/>
+<rect x="340" y="392" width="200" height="108" rx="36" fill="none" stroke="#e07a1f" stroke-width="2"/>
+<text x="350" y="181" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="16" font-weight="400" fill="#2a6db5" text-anchor="middle"><tspan x="350" dy="0">Grader actually rewards</tspan></text>
+<text x="440" y="451" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="15" font-weight="400" fill="#b45f0a" text-anchor="middle"><tspan x="440" dy="0">Believed rewarded</tspan></text>
+<text x="32" y="44" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="20" font-weight="600" fill="#222222" text-anchor="start"><tspan x="32" dy="0">3 · Instructions + article</tspan></text>
+<text x="32" y="70" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="15" font-weight="400" fill="#555555" text-anchor="start"><tspan x="32" dy="0">The article arrives. Its five points take at least 100 words to cover clearly,</tspan><tspan x="32" dy="21">so the short end drops out. The limit is unchanged, so the right edge stays at 200.</tspan></text>
+</g>
+<g transform="translate(840 640)">
+<rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+<line x1="140" y1="548" x2="750" y2="548" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="140" y1="548" x2="140" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="340" y1="548" x2="340" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="540" y1="548" x2="540" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="740" y1="548" x2="740" y2="554" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="140" y1="548" x2="140" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="134" y1="536" x2="140" y2="536" stroke="#8a8a8a" stroke-width="1.5"/>
+<line x1="134" y1="112" x2="140" y2="112" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="140" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="140" dy="0">0</tspan></text>
+<text x="340" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="340" dy="0">100</tspan></text>
+<text x="540" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="540" dy="0">200</tspan></text>
+<text x="740" y="572" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="middle"><tspan x="740" dy="0">300 words</tspan></text>
+<text x="129" y="540.55" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="end"><tspan x="129" dy="0">clear paragraph</tspan></text>
+<text x="129" y="116.55" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="13" font-weight="400" fill="#8a8a8a" text-anchor="end"><tspan x="129" dy="0">bare list of facts</tspan></text>
+<rect x="0" y="0" width="800" height="600" fill="#d4e7f8" opacity="1" mask="url(#p4-sm-mask-0)"/>
+<rect x="0" y="0" width="800" height="600" fill="#f4a261" opacity="0.3" mask="url(#p4-sm-mask-2)"/>
+<rect x="340" y="392" width="200" height="108" rx="36" fill="none" stroke="#f0b37e" stroke-width="1.5" stroke-dasharray="5 5"/>
+<rect x="175" y="165" width="365" height="340" rx="36" fill="none" stroke="#e07a1f" stroke-width="2"/>
+<text x="350" y="181" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="16" font-weight="400" fill="#2a6db5" text-anchor="middle"><tspan x="350" dy="0">Grader actually rewards</tspan></text>
+<text x="360" y="330" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="15" font-weight="400" fill="#b45f0a" text-anchor="middle"><tspan x="360" dy="0">Believed rewarded</tspan></text>
+<g transform="translate(195 230)"><circle r="13" fill="#2e9e5b" stroke="#ffffff" stroke-width="2"/><g transform="scale(1)"><path d="M -6 .5 L -2 4.5 L 6 -5" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+<text x="216" y="226" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="14" font-weight="400" fill="#222222" text-anchor="start"><tspan x="216" dy="0">Two facts and nothing else;</tspan><tspan x="216" dy="18">about 25 words</tspan></text>
+<text x="32" y="44" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="20" font-weight="600" fill="#222222" text-anchor="start"><tspan x="32" dy="0">4 · Instructions + article + reasoning about the grader</tspan></text>
+<text x="32" y="70" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="15" font-weight="400" fill="#555555" text-anchor="start"><tspan x="32" dy="0">No new information. The model reasons that rubrics list what is easy to check, like a word count</tspan><tspan x="32" dy="21">and named facts, not judgment calls like clarity. The belief widens to everything the rubric tolerates.</tspan></text>
+</g>
+</svg>
