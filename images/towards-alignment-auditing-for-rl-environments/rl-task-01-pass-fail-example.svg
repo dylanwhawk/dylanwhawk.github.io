@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="608" height="368" viewBox="66 126 608 368" role="img" aria-labelledby="sm-title sm-description">
+<title id="sm-title">Pass and fail · Example</title>
+<desc id="sm-description">Pass and fail · Example. Task: What is 0.5 + 0.25? Grader rewards answers equal to 0.75. Each point represents a complete rollout; region placement is schematic.</desc>
+<defs><mask id="sm-mask-0" maskUnits="userSpaceOnUse" x="66" y="126" width="608" height="368" style="mask-type:luminance"><rect x="90" y="150" width="355" height="320" rx="35" fill="white"/></mask></defs>
+<rect x="66" y="126" width="608" height="368" fill="#ffffff"/>
+<rect x="66" y="126" width="608" height="368" fill="#d4e7f8" opacity="1" mask="url(#sm-mask-0)"/>
+<text x="267" y="193" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="16" font-weight="400" fill="#2a6db5" text-anchor="middle"><tspan x="267" dy="0">Grader rewards</tspan></text>
+<g transform="translate(267 290)"><circle r="13" fill="#2e9e5b" stroke="#ffffff" stroke-width="2"/><g transform="scale(1)"><path d="M -6 .5 L -2 4.5 L 6 -5" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+<g transform="translate(595 290)"><circle r="13" fill="#d64545" stroke="#ffffff" stroke-width="2"/><g transform="scale(1)"><path d="M -5 -5 L 5 5 M -5 5 L 5 -5" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></g></g>
+<text x="267" y="327" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="16" font-weight="400" fill="#222222" text-anchor="middle"><tspan x="267" dy="0">Answers “0.75”</tspan></text>
+<text x="595" y="327" font-family="system-ui, -apple-system, &apos;Helvetica Neue&apos;, Arial, sans-serif" font-size="16" font-weight="400" fill="#222222" text-anchor="middle"><tspan x="595" dy="0">Answers “0.8”</tspan></text>
+</svg>
